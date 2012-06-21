@@ -20,11 +20,12 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.2'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  gem 'execjs'
+  gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.2.3'
 end
-
+#gem 'nodejs'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
